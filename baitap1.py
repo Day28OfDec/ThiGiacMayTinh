@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the input image
-image = cv2.imread('anh4.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('same.jpg', cv2.IMREAD_GRAYSCALE)
 
 # Negative Image
 negative_image = 255 - image
